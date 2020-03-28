@@ -1,0 +1,16 @@
+{
+  "name": "webscraping",
+  "version": "1.0.0",
+  "description": "Nodejs Puppeteer Web Scraping",
+  "main": "index.js",
+  "author": "Islem Penywis",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "start": "node remotejobs-scraper/index.js"
+  },
+  "dependencies": {
+    "cron": "^1.8.2",
+    "puppeteer": "^2.1.1"
+  }
+}

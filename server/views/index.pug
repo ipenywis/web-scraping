@@ -1,0 +1,13 @@
+extends layout
+
+block content
+  h1 Here is the List of your Today's Remote Jobs
+  ul  
+    for job in jobs
+      span Title: #{job.title} 
+      span Company: #{job.company} 
+      span technologies: 
+      for tech in job.technologies
+        span #{tech} 
+      br 
+      br
